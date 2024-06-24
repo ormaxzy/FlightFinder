@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">FlightFinder</string>
+    <string name="air_tickets">Авиабилеты</string>
+    <string name="hotels">Отели</string>
+    <string name="subscriptions">Подписки</string>
+    <string name="short_term">Короче</string>
+    <string name="profile">Профиль</string>
+    <string name="placeholder">Заглушка</string>
+    <string name="back">Назад</string>
+    <string name="search_cheap_air_tickets">Поиск дешевых авиабилетов</string>
+    <string name="musically_fly">Музыкально отлететь</string>
+    <string name="from_where">Откуда - Москва</string>
+    <string name="to_where">Куда - Турция</string>
+    <string name="complex_route">Сложный маршрут</string>
+    <string name="anywhere">Куда угодно</string>
+    <string name="weekend">Выходные</string>
+    <string name="hot_tickets">Горячие билеты</string>
+    <string name="istanbul">Стамбул</string>
+    <string name="popular_destination">Популярное направление</string>
+    <string name="sochi">Сочи</string>
+    <string name="phuket">Пхукет</string>
+    <string name="return_back">обратно</string>
+    <string name="filters">фильтры</string>
+    <string name="direct_flights">Прямые рейсы</string>
+    <string name="show_all">Показать все</string>
+    <string name="view_all_tickets">Посмотреть все билеты</string>
+    <string name="price_subscription">Подписка на цену</string>
+    <string name="user_data">1, эконом</string>
+    <string name="filter">Фильтр</string>
+    <string name="price_chart">График цен</string>
+    <string name="currency">₽</string>
+    <string name="per">/</string>
+    <string name="without_transfers">Без пересадок</string>
+</resources>
