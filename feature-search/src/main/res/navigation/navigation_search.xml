@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/destinationSearchFragment">
+
+    <fragment
+        android:id="@+id/destinationSearchFragment"
+        android:name="com.example.feature_search.ui.DestinationSearchFragment"
+        android:label="DestinationSearchFragment">
+        <action
+            android:id="@+id/action_destinationSearchFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <deepLink
+            app:uri="app://com.example.flightfinder/destinationSearchFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.feature_search.ui.SearchFragment"
+        android:label="SearchFragment">
+        <deepLink
+            app:uri="app://com.example.flightfinder/searchFragment" />
+    </fragment>
+</navigation>

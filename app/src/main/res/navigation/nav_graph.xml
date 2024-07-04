@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_tickets">
+
+    <fragment
+        android:id="@+id/navigation_tickets"
+        android:name="com.example.feature_main.ui.MainFragment"
+        android:label="Авиабилеты"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/navigation_hotels"
+        android:name="com.example.flightfinder.ui.PlaceholderFragment"
+        android:label="Отели"
+        tools:layout="@layout/fragment_placeholder" />
+
+    <fragment
+        android:id="@+id/navigation_short"
+        android:name="com.example.flightfinder.ui.PlaceholderFragment"
+        android:label="Короче"
+        tools:layout="@layout/fragment_placeholder" />
+
+    <fragment
+        android:id="@+id/navigation_subscriptions"
+        android:name="com.example.flightfinder.ui.PlaceholderFragment"
+        android:label="Подписки"
+        tools:layout="@layout/fragment_placeholder" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.flightfinder.ui.PlaceholderFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_placeholder" />
+
+    <fragment
+        android:id="@+id/placeholderFragment"
+        android:name="com.example.flightfinder.ui.PlaceholderFragment"
+        android:label="PlaceholderFragment"
+        tools:layout="@layout/fragment_placeholder" />
+
+
+</navigation>

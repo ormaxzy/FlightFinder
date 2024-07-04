@@ -1,0 +1,38 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Kotlin
+*.iml
+*.hprof
+*.log
+.idea/
+
+# Gradle
+.gradle/
+build/
+local.properties
+**/build/
+
+# Android Studio
+/.idea/
+/.idea/
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+*.iml
+*.ipr
+*.iws
+*.swp
+
+# Others
+*.apk
+*.ap_
+/ build folders
+**/build/
+/app/build/
+/captures/
+/output.json
